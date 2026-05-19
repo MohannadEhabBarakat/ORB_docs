@@ -1,0 +1,43 @@
+---
+title: Manual Installation Development
+description: Step-by-step guide to installing the OpenRadBench components for development
+sidebar:
+  order: 4
+---
+
+## Backend
+
+```bash
+git clone https://github.com/MohannadEhabBarakat/orb_backend.git
+cd orb_backend
+docker compose up -d
+uv run uvicorn app.main:app --reload
+```
+
+## Annotation
+
+```bash
+cd ..
+git clone https://github.com/MohannadEhabBarakat/ORB-frontend.git
+cd ORB-frontend
+npm install
+npm run dev
+```
+
+## Admin dashboard
+
+```bash
+cd ..
+git clone https://github.com/MohannadEhabBarakat/orb_FE.git
+cd orb_FE
+npm install
+npm run dev
+```
+
+## Analysis backend (Optional)
+
+```bash
+git clone https://github.com/MohannadEhabBarakat/orb_analysis.git
+cd orb_analysis
+uv run app.py
+```

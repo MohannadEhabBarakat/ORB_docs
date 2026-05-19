@@ -1,0 +1,20 @@
+---
+title: Limitations
+description: Known limitations and future work for OpenRadBench
+---
+
+This project is one of the most I have enjoyed doing. It tested my knowledge in every direction and stretched my skills. From backend, AI, storage, frontend, neuroscience, an ambiguous goal, and a short timeline. This meant that I had to develop while I learn and think. This made a quite long list of limitations. Now, after finishing my thesis, I’ll be fixing them along with talented contributors. If you think you can help, please reach out to me at [hannod98@yahoo.com](mailto:hannod98@yahoo.com).
+
+## Known Limitations
+
+- **Retrospective studies:** Where the annotator reviews their own work after some time, are possible but not fully supported.
+- **Backend storage:** Relies on the file system to store files, which is not reliable.
+- **Type safety:** Due to the nature of developing this prototype during my master's in a very rapid way, I deprecated a lot of the defined types and made a lot of fields optional. In my point of view, the types became more of a technical debt instead of a powerful tool.
+- **Task assignment:** Users get assigned an annotation task to work on. The way this algorithm is implemented is perfectly fine for the use case we had in mind; however, I think it could be replaced with a much better and more complicated system based on producer-consumer architecture.
+- **File hierarchy:** To make the tool work with most datasets, it uses the DICOM standardised four-tier hierarchy for cases and labels. However, I like the flexibility of allowing the annotation tool to open any file hierarchy to be more flexible.
+- **Customization:** Mouse and keyboard bindings, themes and layout are all fixed. Having a customizable tool is crucial since this tool is intended to be used by a wide variety of personas (neuroscience, radiology, software engineers, etc.). Each one has their own likings which rarely intersect with others (even in typefaces). <span style="color: green;">*(If you know UI/UX or frontend dev, I’m looking forward to collaborating on this!)*</span>
+- **AI Automation:** AI models can’t automatically run on datasets. The admin user must run the models and upload the results. <span style="color: red;">*(Coming soon)*</span>
+- **Dataset management:** The admin can upload any datasets they want. However, having the option to just select common datasets and publish new datasets for others is very helpful. <span style="color: red;">*(Coming soon)*</span>
+- **Security:** No access control or authentication.
+- **Collaboration:** No collaborators for any study or datasets.
+- **NiiUe:** While beeing very light, powerful and open source, Niivue is very hard to customize and extend with tools. Also, I "believe" (metric? trust me bro) that NiiVue + webGpu would have been great for annotation tool with a lot of redraws per second but it uses WebGl and WebGl 2 which are not that good for large datasets.
