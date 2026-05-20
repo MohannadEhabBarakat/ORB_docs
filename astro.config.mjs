@@ -7,7 +7,7 @@ export default defineConfig({
 	integrations: [
 		starlight({
 			title: 'ORB',
-			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' }],
+			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/MohannadEhabBarakat' }],
 			sidebar: [
 				{
 					label: 'Getting Started',
@@ -19,6 +19,14 @@ export default defineConfig({
 						// Each item here is one entry in the navigation menu.
 						{ label: 'Simple Example', slug: 'tutorials/simpleexample' },
 					],
+				},
+				{
+					label: 'Backend',
+					items: [{ autogenerate: { directory: 'backend' } }],
+				},
+				{
+					label: 'Analysis',
+					items: [{ autogenerate: { directory: 'analysis' } }],
 				},
 				{
 					label: 'Limitations',
