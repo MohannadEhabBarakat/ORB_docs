@@ -1,6 +1,7 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
+import starlightOpenAPI, { openAPISidebarGroups } from 'starlight-openapi';
 
 // https://astro.build/config
 export default defineConfig({
@@ -8,6 +9,15 @@ export default defineConfig({
 		starlight({
 			title: 'ORB',
 			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/MohannadEhabBarakat' }],
+			plugins: [
+				starlightOpenAPI([
+					{
+						base: 'backend/api',
+						label: 'API',
+						schema: './openapi.json',
+					},
+				]),
+			],
 			sidebar: [
 				{
 					label: 'Getting Started',
@@ -22,7 +32,10 @@ export default defineConfig({
 				},
 				{
 					label: 'Backend',
-					items: [{ autogenerate: { directory: 'backend' } }],
+					items: [
+						{ autogenerate: { directory: 'backend' } },
+						...openAPISidebarGroups,
+					],
 				},
 				{
 					label: 'Analysis',
