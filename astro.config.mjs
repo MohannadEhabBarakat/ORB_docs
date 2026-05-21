@@ -31,12 +31,17 @@ export default defineConfig({
 					],
 				},
 				{
-					label: 'Backend',
-					items: [
-						{ autogenerate: { directory: 'backend' } },
-						...openAPISidebarGroups,
-					],
-				},
+				label: 'Backend',
+				items: [
+					{ autogenerate: { directory: 'backend' } },
+					...openAPISidebarGroups,
+				],
+			},
+			{
+				label: 'API Playground',
+				slug: 'playground',
+				badge: { text: 'Try it', variant: 'tip' },
+			},
 				{
 					label: 'Analysis',
 					items: [{ autogenerate: { directory: 'analysis' } }],

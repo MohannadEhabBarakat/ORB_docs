@@ -1,0 +1,60 @@
+---
+title: API Playground
+description: Test the OpenRadBench API endpoints directly from your browser using the interactive playground.
+sidebar:
+  order: 99
+  badge:
+    text: Try it
+    variant: tip
+---
+
+import { Card } from '@astrojs/starlight/components';
+
+<Card title="🚀 API Playground" icon="rocket">
+  Use the interactive playground below to explore and test all ORB Backend API endpoints directly in your browser.
+  Set your backend URL (e.g. `http://localhost:8000`) in the API Server URL field to start making live requests.
+</Card>
+
+<div id="rapidoc-container">
+  <rapi-doc
+    id="api-playground"
+    spec-url="/openapi.json"
+    theme="dark"
+    render-style="focused"
+    show-header="true"
+    allow-try="true"
+    allow-spec-url-load="false"
+    allow-spec-file-load="false"
+    allow-server-selection="true"
+    show-method-in-nav-bar="as-colored-text"
+    use-path-in-nav-bar="true"
+    nav-bg-color="#181825"
+    nav-text-color="#cdd6f4"
+    nav-hover-bg-color="#313244"
+    nav-hover-text-color="#89b4fa"
+    nav-accent-color="#89b4fa"
+    bg-color="#1e1e2e"
+    text-color="#cdd6f4"
+    primary-color="#89b4fa"
+    header-color="#1e1e2e"
+    schema-style="table"
+    default-schema-tab="example"
+    schema-expand-level="1"
+    fetch-credentials="include"
+    style="height: calc(100vh - 200px); width: 100%; border-radius: 8px; border: 1px solid #313244;"
+  >
+  </rapi-doc>
+</div>
+
+<script is:inline src="https://unpkg.com/rapidoc/dist/rapidoc-min.js"></script>
+
+<style>
+  {`
+    #rapidoc-container {
+      margin-top: 1rem;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 4px 24px rgba(0, 0, 0, 0.3);
+    }
+  `}
+</style>
