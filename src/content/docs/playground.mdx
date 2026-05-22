@@ -1,6 +1,7 @@
 ---
 title: API Playground
 description: Test the OpenRadBench API endpoints directly from your browser using the interactive playground.
+template: splash
 sidebar:
   order: 99
   badge:
@@ -18,7 +19,7 @@ import { Card } from '@astrojs/starlight/components';
 <div id="rapidoc-container">
   <rapi-doc
     id="api-playground"
-    spec-url="/openapi.json"
+    spec-url={import.meta.env.BASE_URL + "openapi.json"}
     theme="dark"
     render-style="focused"
     show-header="true"
@@ -28,6 +29,7 @@ import { Card } from '@astrojs/starlight/components';
     allow-server-selection="true"
     show-method-in-nav-bar="as-colored-text"
     use-path-in-nav-bar="true"
+    responsive-min-width="0"
     nav-bg-color="#181825"
     nav-text-color="#cdd6f4"
     nav-hover-bg-color="#313244"
@@ -40,7 +42,6 @@ import { Card } from '@astrojs/starlight/components';
     schema-style="table"
     default-schema-tab="example"
     schema-expand-level="1"
-    fetch-credentials="include"
     style="height: calc(100vh - 200px); width: 100%; border-radius: 8px; border: 1px solid #313244;"
   >
   </rapi-doc>
@@ -50,6 +51,25 @@ import { Card } from '@astrojs/starlight/components';
 
 <style>
   {`
+    /* Expand the content area so RapiDoc gets enough width to render its nav */
+    .sl-layout {
+      grid-template-columns: 1fr !important;
+    }
+    starlight-toc,
+    .right-sidebar-container,
+    .right-sidebar {
+      display: none !important;
+    }
+    .main-pane {
+      max-width: 100% !important;
+      width: 100% !important;
+    }
+    .content-panel {
+      max-width: 100% !important;
+    }
+    main {
+      max-width: 100% !important;
+    }
     #rapidoc-container {
       margin-top: 1rem;
       border-radius: 8px;

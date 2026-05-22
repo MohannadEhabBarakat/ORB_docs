@@ -15,44 +15,51 @@ export default defineConfig({
 						base: 'backend/api',
 						label: 'API',
 						schema: './openapi.json',
+						collapsed: true,
 					},
 				]),
 			],
 			sidebar: [
 				{
 					label: 'Getting Started',
-					items: [{ autogenerate: { directory: 'gettingStarted' } }],
+					collapsed: true,
+					items: [{ autogenerate: { directory: 'gettingStarted', collapsed: true } }],
 				},
 				{
 					label: 'Tutorials',
+					collapsed: true,
 					items: [
 						// Each item here is one entry in the navigation menu.
 						{ label: 'Simple Example', slug: 'tutorials/simpleexample' },
 					],
 				},
 				{
-				label: 'Backend',
-				items: [
-					{ autogenerate: { directory: 'backend' } },
-					...openAPISidebarGroups,
-				],
-			},
-			{
-				label: 'API Playground',
-				slug: 'playground',
-				badge: { text: 'Try it', variant: 'tip' },
-			},
+					label: 'Backend',
+					collapsed: true,
+					items: [
+						{ autogenerate: { directory: 'backend', collapsed: true } },
+						...openAPISidebarGroups,
+					],
+				},
 				{
 					label: 'Analysis',
-					items: [{ autogenerate: { directory: 'analysis' } }],
+					collapsed: true,
+					items: [{ autogenerate: { directory: 'analysis', collapsed: true } }],
 				},
 				{
 					label: 'Limitations',
-					items: [{ autogenerate: { directory: 'limitations' } }],
+					collapsed: true,
+					items: [{ autogenerate: { directory: 'limitations', collapsed: true } }],
 				},
 				{
 					label: 'Reference',
-					items: [{ autogenerate: { directory: 'reference' } }],
+					collapsed: true,
+					items: [{ autogenerate: { directory: 'reference', collapsed: true } }],
+				},
+				{
+					label: 'API Playground',
+					slug: 'playground',
+					badge: { text: 'Try it', variant: 'tip' },
 				},
 			],
 		}),
