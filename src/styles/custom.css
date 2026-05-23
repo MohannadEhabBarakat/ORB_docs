@@ -1,0 +1,8 @@
+/* Make the hero image fully visible on the landing page */
+.hero img {
+	object-fit: contain;
+	max-height: none;
+	height: auto;
+	width: 100%;
+	min-width: 500px;
+}

@@ -8,7 +8,11 @@ export default defineConfig({
 	integrations: [
 		starlight({
 			title: 'ORB',
-			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/MohannadEhabBarakat' }],
+			customCss: ['./src/styles/custom.css'],
+			social: [
+				{ icon: 'github', label: 'GitHub', href: 'https://github.com/MohannadEhabBarakat' },
+				{ icon: 'pencil', label: 'Tool', href: 'https://annotator-seven.vercel.app/' },
+			],
 			plugins: [
 				starlightOpenAPI([
 					{
