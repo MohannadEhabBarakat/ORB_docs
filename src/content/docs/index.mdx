@@ -5,11 +5,11 @@ template: splash # Remove or comment out this line to display the site sidebar o
 hero:
   tagline: Vscode for Radiology!
   image:
-    html: "<img src='/landing.png' alt='Landing' style='width: 100%; height: auto; max-height: none; object-fit: contain;' />"
+    html: "<img src='./landing.png' alt='Landing' style='width: 100%; height: auto; max-height: none; object-fit: contain;' />"
 	
   actions:
     - text: Get Started
-      link: /gettingstarted/intro/
+      link: ./gettingstarted/intro/
       icon: right-arrow
     - text: Watch Tutorial
       link: https://youtu.be/ArIahNYQLf0?si=2iPyy35TIpgHnxA9
@@ -23,15 +23,16 @@ import { Card, CardGrid } from '@astrojs/starlight/components';
 
 <CardGrid stagger>
 	<Card title="Getting Started" icon="rocket">
-		Install and configure OpenRadBench in minutes. Set up Docker, the backend API, and the annotation tool to start running reader studies. [Get started →](/gettingstarted/intro/)
+		Install and configure OpenRadBench in minutes. Set up Docker, the backend API, and the annotation tool to start running reader studies. [Get started →](./gettingstarted/intro/)
 	</Card>
 	<Card title="Tutorials" icon="open-book">
-		Follow step-by-step guides to upload DICOM datasets, configure annotation studies, and participate as an annotator or reviewer. [View tutorials →](/tutorials/simpleexample/)
+		Follow step-by-step guides to upload DICOM datasets, configure annotation studies, and participate as an annotator or reviewer. [View tutorials →](./tutorials/simpleexample/)
 	</Card>
 	<Card title="API Playground" icon="setting">
-		Interact with the backend REST API directly from your browser. Test endpoints, inspect responses, and integrate with your own tools. [Try it out →](/playground/)
+		Interact with the backend REST API directly from your browser. Test endpoints, inspect responses, and integrate with your own tools. [Try it out →](./playground/)
 	</Card>
 	<Card title="Analysis Tools" icon="document">
-		Generate ground truth from multiple annotations using voting and STAPLE, compare results, and create interactive 4D scatter plots. [Learn more →](/analysis/analysis/)
+		Generate ground truth from multiple annotations using voting and STAPLE, compare results, and create interactive 4D scatter plots. [Learn more →](./analysis/analysis/)
 	</Card>
 </CardGrid>
+
