@@ -4,7 +4,7 @@ title: app.models
 
 <!-- markdownlint-disable -->
 
-<a href="../../../../../../backend/app/models.py#L0"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
+<a href="../../../../../../app/models.py#L0"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 # <kbd>module</kbd> `app.models`
 
@@ -15,7 +15,7 @@ title: app.models
 
 ---
 
-<a href="../../../../../../backend/app/models.py#L5"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
+<a href="../../../../../../app/models.py#L5"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ## <kbd>class</kbd> `DatasetModel`
 
@@ -50,7 +50,7 @@ Returns the set of fields that have been explicitly set on this model instance.
 
 ---
 
-<a href="../../../../../../backend/app/models.py#L17"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
+<a href="../../../../../../app/models.py#L17"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ## <kbd>class</kbd> `DatasetCreate`
 
@@ -85,7 +85,7 @@ Returns the set of fields that have been explicitly set on this model instance.
 
 ---
 
-<a href="../../../../../../backend/app/models.py#L22"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
+<a href="../../../../../../app/models.py#L22"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ## <kbd>class</kbd> `AnnotationModel`
 
@@ -120,7 +120,7 @@ Returns the set of fields that have been explicitly set on this model instance.
 
 ---
 
-<a href="../../../../../../backend/app/models.py#L34"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
+<a href="../../../../../../app/models.py#L34"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ## <kbd>class</kbd> `AnnotationCreate`
 
@@ -155,7 +155,7 @@ Returns the set of fields that have been explicitly set on this model instance.
 
 ---
 
-<a href="../../../../../../backend/app/models.py#L42"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
+<a href="../../../../../../app/models.py#L42"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ## <kbd>class</kbd> `WorkItem`
 
@@ -190,7 +190,7 @@ Returns the set of fields that have been explicitly set on this model instance.
 
 ---
 
-<a href="../../../../../../backend/app/models.py#L50"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
+<a href="../../../../../../app/models.py#L50"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ## <kbd>class</kbd> `AnnotatorWorkItem`
 
@@ -225,7 +225,7 @@ Returns the set of fields that have been explicitly set on this model instance.
 
 ---
 
-<a href="../../../../../../backend/app/models.py#L58"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
+<a href="../../../../../../app/models.py#L58"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ## <kbd>class</kbd> `AnnotatorModel`
 
@@ -260,7 +260,7 @@ Returns the set of fields that have been explicitly set on this model instance.
 
 ---
 
-<a href="../../../../../../backend/app/models.py#L68"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
+<a href="../../../../../../app/models.py#L68"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ## <kbd>class</kbd> `AnnotatorCreate`
 
@@ -295,7 +295,7 @@ Returns the set of fields that have been explicitly set on this model instance.
 
 ---
 
-<a href="../../../../../../backend/app/models.py#L74"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
+<a href="../../../../../../app/models.py#L74"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ## <kbd>class</kbd> `AnnotatorTypeUpdate`
 
@@ -330,7 +330,7 @@ Returns the set of fields that have been explicitly set on this model instance.
 
 ---
 
-<a href="../../../../../../backend/app/models.py#L78"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
+<a href="../../../../../../app/models.py#L78"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ## <kbd>class</kbd> `GenerateAnnotatorsRequest`
 
@@ -365,7 +365,7 @@ Returns the set of fields that have been explicitly set on this model instance.
 
 ---
 
-<a href="../../../../../../backend/app/models.py#L85"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
+<a href="../../../../../../app/models.py#L85"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ## <kbd>class</kbd> `AssignAnnotatorRequest`
 Legacy request; kept for backward compat in name-based routes. 
@@ -398,7 +398,7 @@ Returns the set of fields that have been explicitly set on this model instance.
 
 ---
 
-<a href="../../../../../../backend/app/models.py#L93"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
+<a href="../../../../../../app/models.py#L93"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ## <kbd>class</kbd> `AssignCasesRequest`
 
@@ -433,7 +433,7 @@ Returns the set of fields that have been explicitly set on this model instance.
 
 ---
 
-<a href="../../../../../../backend/app/models.py#L97"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
+<a href="../../../../../../app/models.py#L97"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ## <kbd>class</kbd> `AssignReviewRequest`
 
@@ -468,7 +468,7 @@ Returns the set of fields that have been explicitly set on this model instance.
 
 ---
 
-<a href="../../../../../../backend/app/models.py#L102"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
+<a href="../../../../../../app/models.py#L102"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ## <kbd>class</kbd> `UpdateStatusRequest`
 
@@ -503,7 +503,7 @@ Returns the set of fields that have been explicitly set on this model instance.
 
 ---
 
-<a href="../../../../../../backend/app/models.py#L107"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
+<a href="../../../../../../app/models.py#L107"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ## <kbd>class</kbd> `AssignRandomRequest`
 
@@ -538,7 +538,7 @@ Returns the set of fields that have been explicitly set on this model instance.
 
 ---
 
-<a href="../../../../../../backend/app/models.py#L111"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
+<a href="../../../../../../app/models.py#L111"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ## <kbd>class</kbd> `AssignRandomReviewsRequest`
 
@@ -573,7 +573,7 @@ Returns the set of fields that have been explicitly set on this model instance.
 
 ---
 
-<a href="../../../../../../backend/app/models.py#L117"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
+<a href="../../../../../../app/models.py#L117"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ## <kbd>class</kbd> `TagUpdateRequest`
 
@@ -608,7 +608,7 @@ Returns the set of fields that have been explicitly set on this model instance.
 
 ---
 
-<a href="../../../../../../backend/app/models.py#L123"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
+<a href="../../../../../../app/models.py#L123"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ## <kbd>class</kbd> `LabelStatusResponse`
 
@@ -643,7 +643,7 @@ Returns the set of fields that have been explicitly set on this model instance.
 
 ---
 
-<a href="../../../../../../backend/app/models.py#L127"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
+<a href="../../../../../../app/models.py#L127"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ## <kbd>class</kbd> `LabelStatusUpdate`
 

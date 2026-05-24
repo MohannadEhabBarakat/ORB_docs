@@ -4,7 +4,7 @@ title: app.database
 
 <!-- markdownlint-disable -->
 
-<a href="../../../../../../backend/app/database.py#L0"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
+<a href="../../../../../../app/database.py#L0"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 # <kbd>module</kbd> `app.database`
 
@@ -19,7 +19,7 @@ title: app.database
 
 ---
 
-<a href="../../../../../../backend/app/database.py#L19"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
+<a href="../../../../../../app/database.py#L19"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ## <kbd>function</kbd> `connect_db`
 
@@ -34,7 +34,7 @@ connect_db()
 
 ---
 
-<a href="../../../../../../backend/app/database.py#L27"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
+<a href="../../../../../../app/database.py#L27"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ## <kbd>function</kbd> `close_db`
 
@@ -49,7 +49,7 @@ close_db()
 
 ---
 
-<a href="../../../../../../backend/app/database.py#L32"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
+<a href="../../../../../../app/database.py#L32"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ## <kbd>function</kbd> `get_db`
 
@@ -64,7 +64,7 @@ get_db()
 
 ---
 
-<a href="../../../../../../backend/app/database.py#L11"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
+<a href="../../../../../../app/database.py#L11"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ## <kbd>class</kbd> `Database`
 

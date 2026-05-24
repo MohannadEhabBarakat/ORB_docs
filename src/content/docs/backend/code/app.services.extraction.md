@@ -4,7 +4,7 @@ title: app.services.extraction
 
 <!-- markdownlint-disable -->
 
-<a href="../../../../../../backend/app/services/extraction.py#L0"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
+<a href="../../../../../../app/services/extraction.py#L0"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 # <kbd>module</kbd> `app.services.extraction`
 
@@ -14,7 +14,7 @@ title: app.services.extraction
 
 ---
 
-<a href="../../../../../../backend/app/services/extraction.py#L17"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
+<a href="../../../../../../app/services/extraction.py#L17"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ## <kbd>function</kbd> `extract_archive`
 
@@ -29,7 +29,7 @@ extract_archive(archive_path: str, extract_to: Path)
 
 ---
 
-<a href="../../../../../../backend/app/services/extraction.py#L26"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
+<a href="../../../../../../app/services/extraction.py#L26"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ## <kbd>function</kbd> `clean_mac_files`
 
@@ -44,7 +44,7 @@ clean_mac_files(directory: Path)
 
 ---
 
-<a href="../../../../../../backend/app/services/extraction.py#L41"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
+<a href="../../../../../../app/services/extraction.py#L41"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ## <kbd>function</kbd> `get_directory_depth`
 
@@ -57,7 +57,7 @@ Return the maximum depth of the directory tree rooted at path (1 = only files/di
 
 ---
 
-<a href="../../../../../../backend/app/services/extraction.py#L52"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
+<a href="../../../../../../app/services/extraction.py#L52"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ## <kbd>function</kbd> `extract_and_merge_dataset`
 
@@ -72,7 +72,7 @@ extract_and_merge_dataset(dataset_name: str, archive_path: str)
 
 ---
 
-<a href="../../../../../../backend/app/services/extraction.py#L75"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
+<a href="../../../../../../app/services/extraction.py#L75"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ## <kbd>function</kbd> `merge_directories`
 
@@ -87,7 +87,7 @@ merge_directories(src: Path, dst: Path)
 
 ---
 
-<a href="../../../../../../backend/app/services/extraction.py#L163"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
+<a href="../../../../../../app/services/extraction.py#L163"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ## <kbd>function</kbd> `is_os_generated_file`
 
@@ -102,7 +102,7 @@ is_os_generated_file(file_path_str: str) → bool
 
 ---
 
-<a href="../../../../../../backend/app/services/extraction.py#L173"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
+<a href="../../../../../../app/services/extraction.py#L173"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ## <kbd>function</kbd> `extract_annotation`
 
@@ -143,7 +143,7 @@ Extracts an annotation archive (.zip or .gz) into a standardized directory struc
 
 ---
 
-<a href="../../../../../../backend/app/services/extraction.py#L252"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
+<a href="../../../../../../app/services/extraction.py#L252"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ## <kbd>function</kbd> `update_annotation_file`
 

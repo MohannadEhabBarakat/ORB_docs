@@ -4,7 +4,7 @@ title: app.services.annotations
 
 <!-- markdownlint-disable -->
 
-<a href="../../../../../../backend/app/services/annotations.py#L0"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
+<a href="../../../../../../app/services/annotations.py#L0"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 # <kbd>module</kbd> `app.services.annotations`
 
@@ -14,7 +14,7 @@ title: app.services.annotations
 
 ---
 
-<a href="../../../../../../backend/app/services/annotations.py#L55"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
+<a href="../../../../../../app/services/annotations.py#L55"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ## <kbd>function</kbd> `get_case_filetree`
 
@@ -29,7 +29,7 @@ get_case_filetree(token: str, dataset_name: str, patient_name: str)
 
 ---
 
-<a href="../../../../../../backend/app/services/annotations.py#L94"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
+<a href="../../../../../../app/services/annotations.py#L94"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ## <kbd>function</kbd> `get_my_annotations_filetree`
 
@@ -44,7 +44,7 @@ get_my_annotations_filetree(token: str, annotation_path: str, dataset_name: str)
 
 ---
 
-<a href="../../../../../../backend/app/services/annotations.py#L113"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
+<a href="../../../../../../app/services/annotations.py#L113"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ## <kbd>function</kbd> `get_annotations_filetree`
 
@@ -63,7 +63,7 @@ get_annotations_filetree(
 
 ---
 
-<a href="../../../../../../backend/app/services/annotations.py#L156"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
+<a href="../../../../../../app/services/annotations.py#L156"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ## <kbd>function</kbd> `load_workitem`
 
@@ -78,14 +78,14 @@ load_workitem(token: str, workitem: AnnotatorWorkItem)
 
 ---
 
-<a href="../../../../../../backend/app/services/annotations.py#L11"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
+<a href="../../../../../../app/services/annotations.py#L11"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ## <kbd>class</kbd> `FileTreeItem`
 
 
 
 
-<a href="../../../../../../backend/app/services/annotations.py#L12"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
+<a href="../../../../../../app/services/annotations.py#L12"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ### <kbd>method</kbd> `__init__`
 
@@ -108,7 +108,7 @@ __init__(
 
 ---
 
-<a href="../../../../../../backend/app/services/annotations.py#L35"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
+<a href="../../../../../../app/services/annotations.py#L35"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ### <kbd>method</kbd> `getitem`
 
@@ -122,7 +122,7 @@ getitem(keys)
 
 ---
 
-<a href="../../../../../../backend/app/services/annotations.py#L26"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
+<a href="../../../../../../app/services/annotations.py#L26"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ### <kbd>method</kbd> `to_dict`
 
