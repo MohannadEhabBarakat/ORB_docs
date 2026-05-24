@@ -19,7 +19,7 @@ import { Card } from '@astrojs/starlight/components';
 <div id="rapidoc-container">
   <rapi-doc
     id="api-playground"
-    spec-url={import.meta.env.BASE_URL + "openapi.json"}
+    spec-url={import.meta.env.BASE_URL.endsWith('/') ? import.meta.env.BASE_URL + "openapi.json" : import.meta.env.BASE_URL + "/openapi.json"}
     theme="dark"
     render-style="focused"
     show-header="true"
