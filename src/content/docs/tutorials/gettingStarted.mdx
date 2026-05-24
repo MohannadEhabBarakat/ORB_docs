@@ -1,0 +1,72 @@
+---
+title: Getting Started
+description: Basic annotator features and local annotation
+sidebar:
+  order: 2
+---
+
+## Overview
+
+<div style={{ display: 'flex', justifyContent: 'center', margin: '2rem 0' }}>
+  <iframe
+    width="100%"
+    height="auto"
+    style={{ aspectRatio: '16/9', borderRadius: '8px', maxWidth: '800px' }}
+    src="https://www.youtube.com/embed/4olycoThyDo?si=Dvnr7T4Gu-TU5xAX"
+    title="OpenRadBench Overview"
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerPolicy="strict-origin-when-cross-origin"
+    allowFullScreen
+  ></iframe>
+</div>
+
+
+### 1. Uploading a Case
+
+1. Click the upload icon in the top left of the **Cases** panel.
+2. Select your data file from your computer.
+3. If the file lacks connected metadata, the system will automatically assign it a random patient, study, and series.
+4. Keep in mind that everything is processed locally in your browser; refreshing the page will clear your session.
+
+### 2. Uploading and Applying Labels
+
+1. Click the upload icon again to add your corresponding label file.
+2. Select the patient and study from the dropdown menus that match your uploaded case.
+3. Check the **Is label?** box so the software correctly classifies the file.
+4. Choose the file from your computer and click **Upload**.
+5. Double-click the newly loaded case in the left sidebar to render the scan and the mask.
+
+### 3. Customizing Label Colors
+
+By default, the renderer may display the entire mask in a single color (like red).
+
+1. Open the label selector menu at the top of the workspace.
+2. Click **Add label** to create a new classification.
+3. Enter a label name (e.g., "Core") and its corresponding mask value (e.g., "1").
+4. Select a color from the palette (e.g., Blue) and click **Save changes**.
+
+### 4. Using the Annotation Tools
+
+* **Brush:** Select the brush icon to manually paint, add to, or fix the mask.
+* **Eraser:** Select the eraser icon to remove unwanted sections of the mask.
+* **Size:** Adjust the thickness of the brush or eraser using the top slider.
+* **Opacity:** Click the eye icon and drag the slider to change the mask's transparency, allowing you to clearly see the tissue underneath.
+
+### 5. Navigation and Shortcuts
+
+Use the following mouse and keyboard controls to navigate the scan effectively (these work across Windows, Mac, and Linux):
+
+| Action | Control Shortcut |
+| --- | --- |
+| **Pan** | Hold `Ctrl` + Left-Click & Drag |
+| **Windowing (Contrast/Brightness)** | Right-Click & Drag |
+| **Scroll Slices** | Mouse Scroll Wheel (or 2-finger trackpad scroll) |
+| **Zoom** | Hold `Ctrl` + Scroll (or pinch on trackpad) |
+
+### 6. View Settings and Exporting
+
+* **Display Themes:** Toggle between Dark, Light, and System themes using the sun/moon icon in the top right.
+* **View Perspectives:** Switch between Axial, Sagittal, Coronal, Multiplanar, and 3D views using the layout menu.
+* **Reset:** Click the reset icon to instantly restore the default windowing and view settings if you lose your place.
+* **Download:** Click the download icon (arrow pointing down) to save your updated segmentation file directly to your local machine.

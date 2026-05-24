@@ -33,8 +33,9 @@ export default defineConfig({
 					label: 'Tutorials',
 					collapsed: true,
 					items: [
-						// Each item here is one entry in the navigation menu.
-						{ label: 'Simple Example', slug: 'tutorials/simpleexample' },
+						{ slug: 'tutorials/simpleexample' },
+						{ slug: 'tutorials/gettingstarted' },
+						{ slug: 'tutorials/study' },
 					],
 				},
 				{
